@@ -1,0 +1,32 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.blog-single .breadcrumbs{
+	font-size: 13px;
+	color: #888;
+	/*text-transform: capitalize;*/
+}
+
+.woocommerce-message.message-wrapper {
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+	margin-bottom: 1.5em !important;
+	padding: .5em;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+
+.mobile-nav .html_topbar_left a{
+	color: #fd0058;
+}
